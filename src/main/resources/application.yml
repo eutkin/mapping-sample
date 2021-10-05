@@ -1,0 +1,7 @@
+micronaut:
+  application:
+    name: mappingSample
+
+mapping:
+  consumer.id: consumerId as String
+  amount: trxAmount as Long
